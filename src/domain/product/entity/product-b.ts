@@ -1,12 +1,13 @@
+import Entity from "../../@shared/entity/entity.abstract";
 import ProductInterface from "./product.interface";
 
-export default class ProductB implements ProductInterface {
+export default class ProductB extends Entity implements ProductInterface {
 
-  private _id: string;
   private _name: string;
   private _price: number;
 
   constructor(id: string, name: string, price: number) {
+    super()
     this._id = id;
     this._name = name;
     this._price = price;
