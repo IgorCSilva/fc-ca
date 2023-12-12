@@ -1,4 +1,3 @@
-import supertest from "supertest";
 import Entity from "../../@shared/entity/entity.abstract";
 import NotificationError from "../../@shared/notification/notification.error";
 import ProductValidatorFactory from "../factory/product.validator.factory";
